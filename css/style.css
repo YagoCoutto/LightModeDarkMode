@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 15px;
+}
+
+:root{
+    --font: 'Comfortaa';
+    --font-color: #1A1A1A;
+    --background-color: green;
+    --background-color-button: #397bb1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body.dark{
+    background-color: #1A1A1A;
+    color: white;
+    transition: 0.7s;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    
+}
+button{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: white;
+    background-color: var(--background-color-button);
+    border-radius: 18px;
+    cursor: pointer;
+
+}
+
+.label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+
+}
+input{
+    margin-right: 0px;
+}
